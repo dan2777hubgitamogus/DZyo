@@ -10,3 +10,17 @@ class Product:
 
 product1=()
 product1.printer()
+
+
+
+class Rectangle:
+    def __init__(self):
+        self.width = 30
+        self.height = 20
+        self.calculate_perimeter = 2*self.width + 2*self.height
+        self.calculate_area = self.height * self.width
+    def printer(self):
+        print(f"Rectangle has width {self.width} and height {self.height}.The area is {self.calculate_area} and perimeter {self.calculate_perimeter}")
+
+rectangle1=()
+rectangle1.printer()
